@@ -1,0 +1,14 @@
+Program: blastn (2.2.31+)
+  Query: pak_c12_g1_i1 (249)
+ Target: PAKISTANLANGRA
+   Hits: ----  -----  ----------------------------------------------------------
+            #  # HSP  ID + description
+         ----  -----  ----------------------------------------------------------
+            0      1  pak_c12_g1_i1  cultivar:magnifera indica len=249 
+Program: blastn (2.2.31+)
+  Query: china_c3_g1_i1 (273)
+ Target: PAKISTANLANGRA
+   Hits: ----  -----  ----------------------------------------------------------
+            #  # HSP  ID + description
+         ----  -----  ----------------------------------------------------------
+            0      1  pak_c11284_g1_i1  cultivar:magnifera indica sp|Q9SF32|I...
