@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+<meta name="language" content="en, sv" />
+<title>  Page not found - </title>
+<link href="http://clintherman.com/wp-content/themes/flexibility3/style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="http://clintherman.com/wp-content/themes/flexibility3/favicon.ico" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://clintherman.com/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="http://clintherman.com/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://clintherman.com/feed/atom/" />
+<link rel="pingback" href="http://clintherman.com/xmlrpc.php" />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/clintherman.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<base target="_parent" /><link rel='stylesheet' id='pbuilder_font-awesome_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/font-awesome.css?ver=4.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_fornt_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/front.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/font/fawesome/font-awesome.css?ver=4.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-frb_awesome-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/font/frb_fawesome/font-awesome.css?ver=4.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-creative-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/font/alternative/styles.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-alternative-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/font/creative/styles.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-new_creative-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/font/alternative_new/style.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-new_alternative-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/font/creative_new/style.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_prettyphoto_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/jquery.prettyphoto.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_swiper_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/idangerous.swiper.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_YTPlayer_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/mb.YTVPlayer.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_flipclock_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/timer2.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_soon_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/soon.min.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_mb_comingsoon_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/mb-comingsoon.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_animate_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/animate.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_contact_ui_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/contact-ui.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_shortcode_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/shortcodes.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_pbs_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/pbs.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='pbuilder_fp_css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/minimalist.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='progressbar-css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder//css/progressbar.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='GDwidgetStylesheet-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/style.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='color-box-css-css'  href='http://clintherman.com/wp-content/plugins/profit_builder/css/colorbox.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='akp-dynamic-css-css'  href='http://clintherman.com/wp-admin/admin-ajax.php?action=akp_dynamic_css&#038;ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://clintherman.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.8' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://clintherman.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.6' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='wp-v-icons-css-css'  href='http://clintherman.com/wp-content/plugins/wp-visual-icon-fonts/css/wpvi-fa4.css?ver=4.7.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://clintherman.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/themes/flexibility3/js/superfish.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder//js/form_validate.js?ver=1.0.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/jquery.colorbox-min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/ouibounce.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/adkingpro/js/jquery.jshowoff.js?ver=4.7.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var AkpAjax = {"ajaxurl":"http:\/\/clintherman.com\/wp-admin\/admin-ajax.php","ajaxnonce":"b21012598b"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/adkingpro/js/adkingpro-functions.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.2.6'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.6'></script>
+<link rel='https://api.w.org/' href='http://clintherman.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://clintherman.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://clintherman.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.5" />
+            <style type="text/css">
+                .adkingprobanner.rollover {position: relative;}
+                .adkingprobanner.rollover .akp_rollover_image {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+                .adkingprobanner.rollover .akp_rollover_image.over {z-index: 0;}
+                .adkingprobanner.rollover:hover .akp_rollover_image.over {z-index: 2;}
+                /* Add any CSS you would like to modify your banner ads here */            </style>
+            
+<style>
+	.pbuilder_column,#colorbox{
+		font-family: Open Sans, serif; 
+	}
+</style>
+<style>
+#pbuilder_content_wrapper .pbuilder_row > div:last-child, #pbuilder_content_wrapper .pbuilder_row > .pbuilder_row_colwrapper, .anivia_row > div:last-child,  #pbuilder_wrapper.pbuilder_wrapper_one-fourth-right-sidebar, #pbuilder_wrapper.pbuilder_wrapper_one-fourth-left-sidebar, #pbuilder_wrapper.pbuilder_wrapper_one-third-right-sidebar, #pbuilder_wrapper.pbuilder_wrapper_one-third-left-sidebar {
+	margin: 0px -24px;
+}
+
+.pbuilder_column.pbuilder_column-1-1, .pbuilder_column.pbuilder_column-1-2, .pbuilder_column.pbuilder_column-1-3, .pbuilder_column.pbuilder_column-2-3, .pbuilder_sidebar.pbuilder_one-fourth-right-sidebar, .pbuilder_sidebar.pbuilder_one-fourth-left-sidebar, .pbuilder_sidebar.pbuilder_one-third-right-sidebar, .pbuilder_sidebar.pbuilder_one-third-left-sidebar, .pbuilder_column.pbuilder_column-1-4, .pbuilder_column.pbuilder_column-3-4, .pbuilder_column.pbuilder_column-1-5, .pbuilder_column.pbuilder_column-2-5, .pbuilder_column.pbuilder_column-3-5, .pbuilder_column.pbuilder_column-4-5, .pbuilder_wrapper_one-fourth-left-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-third-left-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-fourth-right-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-third-right-sidebar #pbuilder_content_wrapper{
+	border-right:24px solid transparent;
+	border-left:24px solid transparent;
+}
+
+@media screen and (max-width: 1200px) {
+
+	#pbuilder_content_wrapper .pbuilder_row > div:last-child, .anivia_row > div:last-child,  #pbuilder_wrapper.pbuilder_wrapper_one-fourth-right-sidebar, #pbuilder_wrapper.pbuilder_wrapper_one-fourth-left-sidebar, #pbuilder_wrapper.pbuilder_wrapper_one-third-right-sidebar, #pbuilder_wrapper.pbuilder_wrapper_one-third-left-sidebar {
+		margin: 0px -18px;
+	}
+	.pbuilder_column.pbuilder_column-1-1, .pbuilder_column.pbuilder_column-1-2, .pbuilder_column.pbuilder_column-1-3, .pbuilder_column.pbuilder_column-2-3, .pbuilder_sidebar.pbuilder_one-fourth-right-sidebar, .pbuilder_sidebar.pbuilder_one-fourth-left-sidebar, .pbuilder_sidebar.pbuilder_one-third-right-sidebar, .pbuilder_sidebar.pbuilder_one-third-left-sidebar, .pbuilder_column.pbuilder_column-1-4, .pbuilder_column.pbuilder_column-3-4, .pbuilder_column.pbuilder_column-1-5, .pbuilder_column.pbuilder_column-2-5, .pbuilder_column.pbuilder_column-3-5, .pbuilder_column.pbuilder_column-4-5, .pbuilder_wrapper_one-fourth-left-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-third-left-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-fourth-right-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-third-right-sidebar #pbuilder_content_wrapper{
+		border-right:18px solid transparent;
+		border-left:18px solid transparent;
+	}
+}
+@media screen and (max-width: 960px) {
+	#pbuilder_content_wrapper .pbuilder_row > div:last-child, .anivia_row > div:last-child,  #pbuilder_wrapper.pbuilder_wrapper_one-fourth-right-sidebar, #pbuilder_wrapper.pbuilder_wrapper_one-fourth-left-sidebar, #pbuilder_wrapper.pbuilder_wrapper_one-third-right-sidebar, #pbuilder_wrapper.pbuilder_wrapper_one-third-left-sidebar {
+		margin: 0px -12px;
+	}
+
+	.pbuilder_column.pbuilder_column-1-1, .pbuilder_column.pbuilder_column-1-2, .pbuilder_column.pbuilder_column-1-3, .pbuilder_column.pbuilder_column-2-3, .pbuilder_sidebar.pbuilder_one-fourth-right-sidebar, .pbuilder_sidebar.pbuilder_one-fourth-left-sidebar, .pbuilder_sidebar.pbuilder_one-third-right-sidebar, .pbuilder_sidebar.pbuilder_one-third-left-sidebar, .pbuilder_column.pbuilder_column-1-4, .pbuilder_column.pbuilder_column-3-4, .pbuilder_column.pbuilder_column-1-5, .pbuilder_column.pbuilder_column-2-5, .pbuilder_column.pbuilder_column-3-5, .pbuilder_column.pbuilder_column-4-5, .pbuilder_wrapper_one-fourth-left-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-third-left-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-fourth-right-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-third-right-sidebar #pbuilder_content_wrapper{
+		border-right:12px solid transparent;
+		border-left:12px solid transparent;
+	}
+}
+@media screen and (max-width: 768px) {
+	.pbuilder_column.pbuilder_column-1-1, .pbuilder_column.pbuilder_column-1-2, .pbuilder_column.pbuilder_column-1-3, .pbuilder_column.pbuilder_column-2-3, .pbuilder_sidebar.pbuilder_one-fourth-right-sidebar, .pbuilder_sidebar.pbuilder_one-fourth-left-sidebar, .pbuilder_sidebar.pbuilder_one-third-right-sidebar, .pbuilder_sidebar.pbuilder_one-third-left-sidebar, .pbuilder_column.pbuilder_column-1-4, .pbuilder_column.pbuilder_column-3-4, .pbuilder_column.pbuilder_column-1-5, .pbuilder_column.pbuilder_column-2-5, .pbuilder_column.pbuilder_column-3-5, .pbuilder_column.pbuilder_column-4-5, .pbuilder_wrapper_one-fourth-left-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-third-left-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-fourth-right-sidebar #pbuilder_content_wrapper, .pbuilder_wrapper_one-third-right-sidebar #pbuilder_content_wrapper{
+		width:100%;
+		border-width:0;
+	}
+	.frb_pricing_column_label {
+		display:none;
+	}
+	.frb_pricing_container_1col table {
+		width:100% !important;
+	}
+	.frb_pricing_container_2col table{
+		width:200% !important;
+	}
+	.frb_pricing_container_3col table{
+		width:300% !important;
+	}
+	.frb_pricing_container_4col table{
+		width:400% !important;
+	}
+	.frb_pricing_container_5col table{
+		width:500% !important;
+	}
+	.frb_pricing_table td {
+		border-right:0 !important;
+	}
+	#pbuilder_content_wrapper .pbuilder_row > div:last-child, .anivia_row > div:last-child,  .pbuilder_wrapper_one-third-left-sidebar .pbuilder_row, .pbuilder_wrapper_one-third-right-sidebar .pbuilder_row, .pbuilder_wrapper_one-fourth-left-sidebar .pbuilder_row, .pbuilder_wrapper_one-fourth-right-sidebar .pbuilder_row, .pbuilder_row_controls  {
+		margin: 0px;
+	}
+	.frb_pricing_controls,
+	.frb_pricing_section_responsive,
+	.frb_pricing_label_responsive {
+		display:block;
+	}
+
+
+}
+
+
+
+</style>
+	<style type="text/css">
+	/*
+	Settings for Syon Policy
+	*/
+	#syon-privacy
+	{
+		font-family:Arial;
+		font-size:12px;
+	}
+	</style>
+	  
+  <!--[if lte IE 6]>
+  <link rel='stylesheet' type='text/css' href="http://clintherman.com/wp-content/themes/flexibility3/ie6style.php" />
+  <script type="text/javascript" src="http://clintherman.com/wp-content/themes/flexibility3/js/DD_belatedPNG_0.0.8a-min.js"></script> 
+  <script>
+  DD_belatedPNG.fix('#header, #searchform, img, #feature, .topshadow, .postMeta, .commentcount, .postdate, #footer, #footerdark, .scshadow, #sidebar-top h5, li, #wp-pagenavi a, #wp-pagenavi .current, input, .subbox, .subbox2, .contentbox');
+</script>
+  <![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+	 jQuery(document).ready(function(){ 
+		
+        jQuery("ul.sf-menu").superfish({ 
+            autoArrows: true,
+			dropShadows: false,
+			speed:       300, 
+			delay:       500, 
+            animation:   {height:'show'}
+		}); 
+		jQuery("#nav a").removeAttr("title"); 
+		
+		
+    }); 
+//]]>
+</script>
+
+  <meta name="generator" content="Powered by Slider Revolution 5.2.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55383875-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div id="bgwrapper">
+<div id="wrap">
+<div id="nav" style="clear:both;">
+	<div class="menu-support-container"><ul id="menu-support" class="sf-menu"><li id="menu-item-789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-789"><a href="http://clintherman.com/contact/"><span>Contact</span></a></li>
+<li id="menu-item-872" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-872"><a href="http://clintherman.com/terms/"><span>Terms</span></a></li>
+<li id="menu-item-873" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-873"><a href="http://clintherman.com/about/"><span>About</span></a></li>
+</ul></div>  <div class="clearer"></div>
+</div>
+<div id="header">
+      <h3><a href="http://clintherman.com/"></a></h3>  <p class="tagline"></p>
+      </div>
+<div id="content">
+		<div class="postwrap">
+		<div class="post">
+			<div class="postcontent">
+								<h2>Oops, That wasn't found</h2>
+				<p>Sorry, no posts matched your criteria.</p>
+				<p>Perhaps you can find what you're looking for below.</p>
+				<h2>Recent Blog Posts</h2>
+				<ul style="margin-bottom:40px;">
+						<li><a href='http://clintherman.com/3-simple-steps-to-becoming-an-effective-communicator/'>3 simple steps to becoming an effective communicator&#8230;</a></li>
+	<li><a href='http://clintherman.com/breaking-through-by-setting-realistic-goals-and-committing-to-them/'>Breaking Through By Setting Realistic Goals And Committing To Them</a></li>
+	<li><a href='http://clintherman.com/heres-a-simple-and-effective-way-to-boost-your-productivity-into-hyper-drive/'>Here’s A Simple And Effective Way To Boost Your Productivity Into Hyper Drive</a></li>
+	<li><a href='http://clintherman.com/use-simplification-and-focus-in-your-online-business-to-eliminate-overwhelm/'>Use Simplification And Focus In Your Online Business To Eliminate Overwhelm</a></li>
+	<li><a href='http://clintherman.com/utilize-the-8020-rule-to-max-out-your-time-roi/'>Utilize The 80/20 Rule To Max Out Your Time ROI In Your Online Business</a></li>
+	<li><a href='http://clintherman.com/quickly-get-your-blog-indexed-in-google/'>Quickly Get Your Blog Indexed In Google</a></li>
+	<li><a href='http://clintherman.com/make-a-picture-look-like-a-sketch-or-painting/'>Make a Picture Look Like A Sketch or Painting</a></li>
+	<li><a href='http://clintherman.com/how-to-use-jing/'>How To Use Jing</a></li>
+	<li><a href='http://clintherman.com/how-to-use-google-trends/'>How To Use Google Trends</a></li>
+	<li><a href='http://clintherman.com/how-to-use-ebay-pulse/'>How To Use Ebay Pulse</a></li>
+	<li><a href='http://clintherman.com/how-to-use-ebay-completed-listing-feature/'>How To Use Ebay Completed Listing Feature</a></li>
+	<li><a href='http://clintherman.com/how-to-use-blog-spam-to-your-advantage/'>How To Use Blog Spam To Your Advantage</a></li>
+	<li><a href='http://clintherman.com/how-to-synchronize-your-bookmarks-in-firefox/'>How To Synchronize Your Bookmarks In Firefox</a></li>
+	<li><a href='http://clintherman.com/how-to-surf-the-web-with-complete-privacy/'>How to Surf The Web With Complete Privacy</a></li>
+	<li><a href='http://clintherman.com/how-to-set-your-domain-nameservers/'>How To Set Your Domain Nameservers</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="sidebar">
+    <div id="sidebar-top">
+        <div class='adkingprobanner sidebar akpbanner banner981' style='width: px; height: px;'><a href='http://nosalescash.com/intro.php' target="_blank" data-id='981'><img src='http://clintherman.com/wp-content/uploads/2015/11/NSC.jpg' style='max-width: px; max-height: px;' alt='' /></a></div><script type='text/javascript'>ga('send', 'event', '', 'Impression', '');</script>  </div>
+  <div style="clear:both;"></div>
+      <div id="sidebar-left">
+      <h5>Categories</h5>		<ul>
+	<li class="cat-item cat-item-39"><a href="http://clintherman.com/category/affiliate-marketing-2/" >Affiliate Marketing</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://clintherman.com/category/article-marketing-2/" >Article Marketing</a>
+</li>
+	<li class="cat-item cat-item-362"><a href="http://clintherman.com/category/blogging/" >Blogging</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://clintherman.com/category/clickbank/" >ClickBank</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://clintherman.com/category/ebay/" >eBay</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://clintherman.com/category/internet-marketing/" >Internet Marketing</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://clintherman.com/category/internet-marketing-ideas/" >Internet Marketing Ideas</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://clintherman.com/category/internet-marketing-strategies/" >Internet Marketing strategies</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://clintherman.com/category/low-no-cost-ways-to-market-your-online-business/" >Low &amp; No-Cost Ways to Market Your Online Business</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://clintherman.com/category/marketing/" >Marketing</a>
+</li>
+	<li class="cat-item cat-item-472"><a href="http://clintherman.com/category/motivation-and-inspiration/" >Motivation And Inspiration</a>
+</li>
+	<li class="cat-item cat-item-328"><a href="http://clintherman.com/category/my-business-retooling-with-george-pluss/" title="1 year business plan in place, starting now. The end financial goal is to have a $10K per month business by or before the 1 year mark. But more importantly, I will have a quality business running that will be positively impacting others.">My Business Retooling with George Pluss</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://clintherman.com/category/paypal/" >PayPal</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://clintherman.com/category/recommended/" >Recommended</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://clintherman.com/category/selling-on-ebay/" >Selling on eBay</a>
+</li>
+	<li class="cat-item cat-item-199"><a href="http://clintherman.com/category/seo/" >SEO</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="http://clintherman.com/category/site-flipping-2/" >Site Flipping</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://clintherman.com/category/traffic-generation/" >Traffic Generation</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://clintherman.com/category/uncategorized/" >Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://clintherman.com/category/video-marketing/" >Video Marketing</a>
+</li>
+	<li class="cat-item cat-item-339"><a href="http://clintherman.com/category/video-tutorials/" >Video tutorials</a>
+</li>
+	<li class="cat-item cat-item-382"><a href="http://clintherman.com/category/website/" >Website</a>
+</li>
+	<li class="cat-item cat-item-402"><a href="http://clintherman.com/category/wordpress/" >Wordpress</a>
+</li>
+		</ul>
+    
+    <br/>
+  </div>
+      <div id="sidebar-right">
+    			<div class="textwidget"></div>
+		  </div>
+  </div>
+</div>
+<div id="footer">
+		<div id="footerfeature">
+		<div class="topshadow">
+			<div class="foot_box">			<div class="textwidget"></div>
+		</div>			<div style="clear:both;"></div>
+		</div>
+	</div>
+		<div id="footerdark">
+		<p>Copyright &copy;
+			<script type="text/javascript" language="JavaScript"><!--
+				var today = new Date();
+				document.write(today.getFullYear());
+			//-->
+			</script>
+			<a href="http://clintherman.com/"></a> </p>
+	</div>
+</div>
+<!-- footer close -->
+<div class="clearer"></div>
+</div>
+<!-- wrap close -->
+</div>
+	   <script>
+	   jQuery(document).ready(function(e) {
+		 var so_continue_href='';
+		 jQuery('a').each(function(index, element) {
+			if(jQuery(this).hasClass('so-track') || jQuery(this).data('track')==1 ){
+				jQuery(this).on('click',function(e){
+				   //console.log('a click');
+				   trackconversion();
+				   so_continue_href=jQuery(this).attr('href');
+				   return false;
+				});
+			}
+		 });
+
+		 function trackconversion(){
+			  jQuery.ajax({
+				type: 'POST',
+				url: 'http://clintherman.com/wp-admin/admin-ajax.php',
+				data:{action:'so_add_conversion',so_page:981 },
+				dataType: 'json'}
+			  ).done(function(response) {
+				location.href=so_continue_href;
+			  });
+		 }
+
+	   });
+	   </script>
+	   <link rel='stylesheet' id='pbuilder_Open+Sans_300-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300&#038;subset=all&#038;ver=4.7.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://clintherman.com/wp-includes/js/jquery/jquery.color.min.js?ver=2.1.1'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/jquery.ui.mouse.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/jquery.ui.draggable.min.js?ver=4.7.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/jquery.prettyphoto.js?ver=3.1.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/idangerous.swiper.js?ver=2.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/swfobject.js?ver=2.2.0'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/jquery.metadata.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/jquery.mb.YTPlayer.js?ver=1.4.0'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/timer.min.js?ver=0.5.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/soon.min.js?ver=0.5.5'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/jquery.mb-comingsoon.js?ver=0.5.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxurl = "http:\/\/clintherman.com\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/shortcodes.js?ver=1.0.1'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/jquery.easypiechart.min.js?ver=2.1.3'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/chart.js?ver=1.0'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/raphael.2.1.0.min.js?ver=2.1.0'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/justgage.1.0.1.js?ver=1.0.1'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/isotope.pkgd.min.js?ver=2.0.0'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/pbs.min.js?ver=1.0.1'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/modernizr-2.6.2-respond-1.1.0.min.js?ver=2.6.2'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder/js/flowplayer.min.js?ver=2.5.4'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/profit_builder//js/pb_main.js?ver=1.0.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/clintherman.com\/wp-json\/","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://clintherman.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.8'></script>
+<script type='text/javascript' src='http://clintherman.com/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+<script type="text/javascript">if(typeof removecufon == "function") removecufon();</script><!-- bgwrapper close -->
+</body></html>
