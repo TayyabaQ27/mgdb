@@ -1,0 +1,91 @@
+{% extends "header.html" %}
+                {% block head %}
+                <title>Results</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                {% endblock %}{% block content %}
+                <div class="container" style="margin-top:12%; width:1100px">
+                <fieldset class="collapsible panel panel-default form-wrapper" id="edit-q">
+                <legend class="panel-heading"><a href="#" class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-q > .collapse">Phylogenetic Analysis</a></legend>
+                <div class="panel-collapse collapse fade in"><div class="panel-body">
+                <h1 class="panel-body" style="text-align:center">Phylogeny Results</h1><h3 class="panel-body" style="text-align:justify; font-size:16px; font-weight:lighter;">Click on advance option for analyzing the results.</h3>
+<form method="post"><h3 class="panel-body" style="text-align:justify;">Multiple Sequence Alignment</h3><textarea name="me" hidden>fastatest</textarea>
+                <pre><input formaction="savealn" type="submit" value="Download Alignment" style="border:none; color:red; text-decoration:underline; background:none"/>    <input formaction="phylip" type="submit" value="PHYLIP format file" style="border:none; color:red; text-decoration:underline; background:none"/>
+CLUSTAL 2.1 multiple sequence alignment
+
+
+mex_c7_g1_i1                        --------------------------------ACGATCTGGATGCCATTT
+Isl_gi|617883057|gb|GBCV010007      GTTTGGTTGCTGAGAAAATGGAGGAATAGAAAGGGAAATGAAGGAAGATT
+china_c3_g1_i1                      ---------------------------CTCCCATGGTCGGGCTGCCA-TC
+pak_c12_g1_i1                       ---------------------------------------------TAATT
+                                                                                    * 
+
+mex_c7_g1_i1                        CAGTGCACAAGCTCTATATT-TGAGGTTAAGCAGATGGAGATCA---GAC
+Isl_gi|617883057|gb|GBCV010007      GAA-GCAGAATTTTGACTTT-TTAGTGTCGACTGAGAGCTACTGTTTGAC
+china_c3_g1_i1                      CATCGCTCTAACCA---ACT-CCAACCCCAGTGGGGATTGTTTG---GAT
+pak_c12_g1_i1                       GAGTACATTTTGGGGAGTTTGCTCGGTTTAGTTGGGTGGTTTTG--TTCT
+                                     *   *             *             *                
+
+mex_c7_g1_i1                        TAATGAGGAAAGCATCTTC--CCATTGG--CAACACT--------GATGC
+Isl_gi|617883057|gb|GBCV010007      TTATTAGGAAGGATGTTTAAGCCACTAAATCGGGATTTTT--TCGAATTT
+china_c3_g1_i1                      CCATAAATGTTCGATTTGCAGATTTTGAAGAGTTCTTCAAGACATGCTGA
+pak_c12_g1_i1                       TGATTTCGGTGATGGTTGCTGAGAAAATGTCAGTTTTAGAG-CTTTTTTT
+                                      **            *                   *          *  
+
+mex_c7_g1_i1                        TTGGAAAATAAAGAAA-CAATACAAAGGATAAACAACCAAAAAATACTGA
+Isl_gi|617883057|gb|GBCV010007      TTATAGTGTTTGTACTTCGATCAGCTGCTTGGTTGATGAAAAAATGTAGG
+china_c3_g1_i1                      TGAGAAAATGCATAAGCCAATGCCCTCTCTCTTCTCATAGCAGCTTCTTG
+pak_c12_g1_i1                       TTTAAGAAGATTTAGCTGGTTGAGGTTGCTTGTTTGGTATCTCCTATGCA
+                                    *   *        *      *        *        *     *     
+
+mex_c7_g1_i1                        AT--CAGAAGCAAAATAATCT--AATCGACCACCGATAGTGAGCCAAAGA
+Isl_gi|617883057|gb|GBCV010007      AGAGCACAAGAAAATTAAACTGGAATTTTCTCTTGAAAG-AATTAAGGGA
+china_c3_g1_i1                      CT--TGTGCTGTAGTTTTGCTTTAATTTGCTCCTTAGACTGTAT------
+pak_c12_g1_i1                       GGTGTTTTTTTTCGTTTTTGTTCTATTAACTTTATATTCTTTGA-----A
+                                                   *    *   **   *     *              
+
+mex_c7_g1_i1                        G-AATCATTGAGGGCTTATGCAGTTTTGACTTCCTCGAGTTTGAGAGGAC
+Isl_gi|617883057|gb|GBCV010007      GTAACTATTTTGTTTTGATGTAGGTTTTTTGCAAGCAAAATTGATGTTAC
+china_c3_g1_i1                      GCTATCGTTCCATTCTTCTCCAACTTGAGAAGCACTAAACCTCTCCAGCT
+pak_c12_g1_i1                       GTTAATATCCGGAGCTGAGAGATTAAAGAACGTGGTAAAGTTGGTATTAG
+                                    *  *   *       *     *               *   *        
+
+mex_c7_g1_i1                        CATAAGCACT-TAGTCCAAG-
+Isl_gi|617883057|gb|GBCV010007      CGAGATTATTGTGTTTCTTGT
+china_c3_g1_i1                      CTTTCTCATGTTTTTG-----
+pak_c12_g1_i1                       AG-------------------
+                                                         
+</pre>
+                <h3 class="panel-body" style="text-align:justify;">Distance Matrix</h3><pre>mex_c7_g1_i1	0
+Isl_gi|617883057|gb|GBCV010007	0.595015576324	0
+china_c3_g1_i1	0.573208722741	0.719626168224	0
+pak_c12_g1_i1	0.647975077882	0.685358255452	0.598130841121	0
+	mex_c7_g1_i1	Isl_gi|617883057|gb|GBCV010007	china_c3_g1_i1	pak_c12_g1_i1</pre>
+                <h3 class="panel-body" style="text-align:justify;">Tree View</h3><pre><input formaction="tree" type="submit" name="submit" value="View Image" style="border:none; color:red; text-decoration:underline; background:none" />    <input formaction="consensus" type="submit" name="submit" value="View Consensus Image" style="border:none; color:red; text-decoration:underline; background:none" />    <input formaction="PAML" type="submit" name="submit" value="View PAML" style="border:none; color:red; text-decoration:underline; background:none" />
+  _________________________________________ pak_c12_g1_i1
+ |
+_|_______________________________________ china_c3_g1_i1
+ |
+ |  ____________________________________ mex_c7_g1_i1
+ |_|
+   |_____________________________________ Isl_gi|617883057|gb|GBCV01000717.1|
+
+Consensus Tree
+  ____________________________________ mex_c7_g1_i1
+ |
+ |____________________________________ Isl_gi|617883057|gb|GBCV01000717.1|
+_|
+ |_______________________________________ china_c3_g1_i1
+ |
+ |_________________________________________ pak_c12_g1_i1
+
+</pre>
+<h3 class="panel-body" style="text-align:justify;">Advance Options</h3> <hr /><ul style="list-style-type:disc"><li>See the tree description<input formaction="treedes" type="submit" name="submit" value="here" style="border:none; color:red; text-decoration:underline; background:none" /><br></li> <li>Change the color of all the clades in a tree? </li><p style="color:grey">Choose the color</p><pre><input type="color" name="foo">    <input type="checkbox" name="labels" value="label"> Show Labels </pre>
+                <li>Search the element in a tree and show it with different color.</li><p style="color:grey">Note: See the description above for the name of your tree clades.<br>Enter the Element name:</p><pre><input type="color" name="foo4">    <input type="text" name="foo1" /></pre><li>Target the most recent common ancestor (MCRA) of the nodes.</li> <p style="color:grey">Please Enter any two common nodes name in each box given</p><pre><input type="color" name="name">    <input type="text" name="foo2"/>    <input type="text" name="foo3" /></pre>
+                <li>Sort clades deepest-to-shallowest <input type="checkbox" name="sort" value="label"></li><li>Reroot this tree at the calculated midpoint between the two most distant tips of the tree. <input type="checkbox" name="rootmid" value="label"></li><li>Generate n new descendants.</li><p style="color:grey">Enter the no of sub-clades and their branch length respectively. If you want to generate more sub-clade(s) please select the checkbox.</p><pre><input type="number" name="foo5" min="1">    <input type="text" name="foo6" />  <input type="checkbox" name="descendant" value="label"> Again</pre><li>Reroot this tree with the outgroup clade containing the given targets, i.e. the common ancestor of the outgroup.</li><p style="color:grey">Enter the Target Name</p><pre><input type="text" name="rootout" /></pre></ul>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="button button1" formaction="tree" type="submit" name="submit" value="Show Image"/><ul><li>Check if target is a descendent of this tree and find its Parent(s).</li><p style="color:grey">Enter the target Name</p><pre><input type="text" name="parent" />    <input formaction="parent" type="submit" style="border:none; color:red; text-decoration:underline; background:none" /></pre>
+                <li>Calculate the sum of the branch lengths between two targets. If only one target is specified, the other is the root of this tree.</li><p style="color:grey">Enter the target name(s)</p><pre><input type="text" name="distance1" />    <input type="text" name="distance2" />    <input formaction="distance" type="submit" style="border:none; color:red; text-decoration:underline; background:none" /></pre><li>List of all clade object between two targets in this tree. Excluding start, including finish.</li><p style="color:grey">Enter the Target names</p><pre><input type="text" name="trace1" />    <input type="text" name="trace2" />    <input formaction="trace" type="submit" style="border:none; color:red; text-decoration:underline; background:none" /></pre>
+                <li>Delete the target from the tree, relinking its children to its parent.</li><p style="color:grey">Enter the target Name</p><pre><input type="text" name="collapse" />  <input type="checkbox" name="collaps" value="label"> Collapse Again    <input formaction="collapse" type="submit" style="border:none; color:red; text-decoration:underline; background:none" /></pre>
+                <li>Collapse all the descendents of this tree if they meet the target specification or condition. </li><p style="color:grey">For Example: It will collapse all the clade's parent node whose branch length is equal to/ less or greater than the input branch length then adds the parent's branch length to the child, so during the execution of collapse_all, a clade's branch_length may increase. In this implementation, clades are collapsed according to their properties in the original tree.<br/>Enter the branch length<pre><select name="select"><option value="equal to" selected>equal to</option><option value="less than">less than</option><option value="greater than">greater than</option><option value="less than equal to">less than equal to</option><option value="greater than equal to">greater than equal to</option></select>    <input type="text" name="collapseall" />    <input formaction="collapseall" type="submit" style="border:none; color:red; text-decoration:underline; background:none" /></pre></ul>
+</form></div></div></fieldset></div>{% endblock %}

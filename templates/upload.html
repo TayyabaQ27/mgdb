@@ -1,0 +1,45 @@
+﻿{% extends "header.html" %}
+        {% block head %}    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet">
+        <link rel="stylesheet" href="static/css/Style1.css">
+<script>
+    function testJS() {
+        var b = document.getElementById('name').value,
+            url = 'file:///C:/Users/Zain/Documents/Visual%20Studio%202017/Projects/FlaskWebProject1/FlaskWebProject1/templates/phylo.html' + encodeURIComponent(b);
+
+        document.location.href = url;
+    }
+</script>
+{% endblock %}
+{% block content %}
+    <div class="container" style="margin-top:12%; width:1100px">
+        <div class="header">
+            <h3 class="text-muted">Phylogenetic Tree Building </h3>
+        </div>
+        <hr />
+        <div>
+            <form action="phylo" method="post" enctype="multipart/form-data">
+                <div class="container" style="margin-top:1%; margin-bottom:5%; width:1100px">
+                    <div>
+                        <fieldset class="collapsible panel panel-default form-wrapper" id="edit-d">
+                            <legend class="panel-heading">
+                                <a href="#" class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-d > .collapse">Phylogenetic Tree</a>
+                            </legend>
+                            <div class="panel-collapse collapse fade in">
+                                <div class="panel-body">
+                                    <h3 class="panel-body" style="margin-top:-1%; text-align:justify; font-size:18px;">A phylogenetic tree or evolutionary tree is a branching diagram or "tree" which shows the inferred evolutionary relationships among various biological species or other entities. The tree is build upon similarities and differences in their physical or genetic characteristics. 
+                                    This program requires multiple sequences in FASTA format to do the alignment using clustalw algorithm and will show the results which can be further modified and processed to get the desired information or picture. It aims to provide a common way to work with phylogenetic trees independently of the source data format.</h3><br\>
+                                    <h4 class="panel-body">Upload the Fasta File of Multiple Sequences</h4>
+                                    <input class="panel-body" id="file" type="file" name="file" > <br/>
+                                    &nbsp;&nbsp;&nbsp;<input class="button button1" type="submit" value="Submit"style="width:12%">
+                                    <p class="panel-body" style="color:dimgrey">{{result}}</p>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+        
+            </form>
+        </div>
+    </div>
+   {% endblock %}

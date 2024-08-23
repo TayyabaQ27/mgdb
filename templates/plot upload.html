@@ -1,0 +1,167 @@
+﻿{% extends "header.html" %}
+        {% block head %}    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+                                  rel="stylesheet">
+<link rel="stylesheet" href="static/css/Style1.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script type="text/javascript" src="js/bootstrap-filestyle.min.js"></script>
+
+<script>
+    function testJS() {
+        var b = document.getElementById('name').value,
+            url = 'file:///C:/Users/Zain/Documents/Visual%20Studio%202017/Projects/FlaskWebProject1/FlaskWebProject1/templates/phylo.html' + encodeURIComponent(b);
+
+        document.location.href = url;
+    }
+</script>
+<style>
+    a {
+        font-size:20px;
+    }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container" style="margin-top:12%; width:1100px">
+    <div class="header">
+        <h3 class="text-muted">Plotting</h3>
+    </div>
+    <hr />
+    <div>
+        <form method="post" enctype="multipart/form-data">
+            <div class="container" style="font-family:'Times New Roman'; margin-top:1%; margin-bottom:5%; width:1100px">
+                <div>
+                    <fieldset class="collapsible panel panel-default form-wrapper" id="edit-d">
+                        <legend class="panel-heading">
+                            <a class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-d > .collapse">Plot Graphs</a>
+                        </legend>
+                        <div class="panel-collapse collapse fade in">
+                            <div class="panel-body">
+                                <h3 class="panel-body" style="margin-top:-1%; text-align:justify; font-size:18px;">
+                                    The Plotting allows you to create different plots of your sequences including Histogram of sequence length, sequence GC%, Nucleotide dot plot etc. to analyze and get a graphical view of your sequence with different functionalities.
+                                </h3>
+                                <fieldset class="collapsible panel panel-default form-wrapper" id="edit-a">
+                                    <legend class="panel-heading">
+                                        <a class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-a > .collapse">Histogram of Sequence Length</a>
+                                    </legend>
+                                    <div class="panel-collapse collapse fade">
+                                        <div class="panel-body">
+                                            <h3 class="panel-body" style="margin-top:-1%; text-align:justify; font-size:16px;">
+                                                Allows you to visualise the distribution of sequence lengths in a dataset.
+                                            </h3>
+                                            <h4 class="panel-body">Upload the Fasta File</h4>
+                                            <input class="panel-body" id="file" type="file" name="file">
+                                            &nbsp;&nbsp;&nbsp;<input formaction="plot1" class="button button1" type="submit" style="width:12%" value="Submit">
+                                            <div class="panel-body" style="color:red">{{res1}}</div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="collapsible panel panel-default form-wrapper" id="edit-b">
+                                    <legend class="panel-heading">
+                                        <a  class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-b > .collapse">Plot of sequence GC%</a>
+                                    </legend>
+                                    <div class="panel-collapse collapse fade">
+                                        <div class="panel-body">
+                                            <h3 class="panel-body" style="margin-top:-1%; text-align:justify; font-size:16px;">
+                                                Another easily calculated quantity of a nucleotide sequence is the GC%.
+                                            </h3>
+                                            <h4 class="panel-body">Upload the Fasta File</h4>
+                                            <input class="panel-body" id="file" type="file" name="file1"> <br />
+                                            &nbsp;&nbsp;&nbsp;<input formaction="plot2" class="button button1" type="submit" style="width:12%" value="Submit">
+                                            <div class="panel-body" style="color:red">{{res2}}</div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="collapsible panel panel-default form-wrapper" id="edit-y">
+                                    <legend class="panel-heading">
+                                        <a href="" class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-y > .collapse">Nucleotide dot plots</a>
+                                    </legend>
+                                    <fieldset class="collapsible panel panel-default form-wrapper" id="edit-c">
+                                        <legend class="panel-heading">
+                                            <a class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-c > .collapse">Dot Plot of two Sequences</a>
+                                        </legend>
+                                        <div class="panel-collapse collapse fade">
+                                            <div class="panel-body">
+
+                                                <h3 class="panel-body" style="margin-top:-1%; text-align:justify; font-size:16px;">
+                                                    A dot plot is a way of visually comparing two nucleotide sequences for similarity to each other. A sliding window is used to compare short sub-sequences to each other, often with a mis-match threshold.
+                                                </h3>
+                                                <h4 class="panel-body">Enter the First Sequence:</h4>
+                                                <textarea class="form-control form-textarea panel-body" name="text1" cols="60" rows="5"></textarea>
+                                                <div class="panel-body" style="color:red">{{res4}}</div>
+                                                <h4 class="panel-body">Enter the Second Sequence:</h4>
+                                                <textarea class="form-control form-textarea panel-body" name="text2" cols="60" rows="5"></textarea>
+                                                <div class="panel-body" style="color:red">{{res5}}</div>
+                                                <h4 class="panel-body">or upload the Fasta File of two Sequences</h4>
+                                                <input class="panel-body" id="file" type="file" name="file2"> <br />
+                                                &nbsp;&nbsp;&nbsp;<input formaction="plot3" class="button button1" type="submit" style="width:12%" value="Submit">
+                                                <div class="panel-body" style="color:red">{{res3}}</div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset class="collapsible panel panel-default form-wrapper" id="edit-z">
+                                        <legend class="panel-heading">
+                                            <a class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-z > .collapse">Dot Plot of multiple Sequences</a>
+                                        </legend>
+                                        <div class="panel-collapse collapse fade">
+                                            <div class="panel-body">
+
+                                                <h3 class="panel-body" style="margin-top:-1%; text-align:justify; font-size:16px;">
+                                                    Polydot generates a dotplot for each of an all-against-all comparison of a set of sequences. The dotplots are rendered on a single diagram. 
+                                                </h3>
+                                                <h4 class="panel-body">Upload the Fasta File of multiple Sequences</h4>
+                                                <input class="panel-body" id="file" type="file" name="file5"> <br />
+                                                &nbsp;&nbsp;&nbsp;<input formaction="plot6" class="button button1" type="submit" style="width:12%" value="Submit">
+                                                <div class="panel-body" style="color:red">{{res9}}</div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    </fieldset>
+                                    <fieldset class="collapsible panel panel-default form-wrapper" id="edit-r">
+                                        <legend class="panel-heading">
+                                            <a class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-r > .collapse">Phred Quality Score</a>
+                                        </legend>
+                                        <div class="panel-collapse collapse fade">
+                                            <div class="panel-body">
+                                                <h3 class="panel-body" style="margin-top:-1%; text-align:justify; font-size:16px;">
+                                                    A Phred quality score is a measure of the quality of the identification of the nucleobases generated by automated DNA sequencing.
+                                                </h3>
+                                                <h4 class="panel-body">Upload the Fastq File</h4>
+                                                <input class="panel-body" id="file" type="file" name="file3"> <br />
+                                                &nbsp;&nbsp;&nbsp;<input formaction="plot4" class="button button1" type="submit" style="width:12%" value="Submit">
+                                                <div class="panel-body" style="color:red">{{res4}}</div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset class="collapsible panel panel-default form-wrapper" id="edit-s">
+                                        <legend class="panel-heading">
+                                            <a class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-s > .collapse">Similarity Plot</a>
+                                        </legend>
+                                        <div class="panel-collapse collapse fade">
+                                            <div class="panel-body">
+                                                <h3 class="panel-body" style="margin-top:-1%; text-align:justify; font-size:16px;">
+                                                    The Similarity Plot reads a sequence alignment and creates a plot of the sequence conservation within windows over the alignment in an image format.<br />
+                                                    <p style="margin-top:-1%; margin-top:1%; text-align:justify; font-size:14px;font-style:italic;">Note: Please Enlarge or save the image for better view.</p>
+                                                </h3>
+                                                <h4 class="panel-body">Upload the Fasta File</h4>
+                                                <input class="panel-body" id="file" type="file" name="file4"> <br />
+                                                &nbsp;&nbsp;&nbsp;<input formaction="plot5" class="button button1" type="submit" style="width:12%" value="Submit">
+                                                <div class="panel-body" style="color:red">{{res8}}</div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+
+
+
+</div>
+                                    </div>
+                                </fieldset>
+                            </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+   {% endblock %}

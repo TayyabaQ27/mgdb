@@ -1,0 +1,25 @@
+<phyloxml xmlns="http://www.phyloxml.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+  <phylogeny rooted="false">
+    <clade>
+      <clade>
+        <name>pak_c12_g1_i1</name>
+        <branch_length>0.48013</branch_length>
+      </clade>
+      <clade>
+        <name>china_c3_g1_i1</name>
+        <branch_length>0.46767</branch_length>
+      </clade>
+      <clade>
+        <branch_length>0.03133</branch_length>
+        <clade>
+          <name>mex_c7_g1_i1</name>
+          <branch_length>0.42527</branch_length>
+        </clade>
+        <clade>
+          <name>Isl_gi|617883057|gb|GBCV01000717.1|</name>
+          <branch_length>0.43133</branch_length>
+        </clade>
+      </clade>
+    </clade>
+  </phylogeny>
+</phyloxml>

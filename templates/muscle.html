@@ -1,0 +1,115 @@
+﻿{% extends "header.html" %}
+        {% block head %}    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+                                  rel="stylesheet">
+<link rel="stylesheet" href="static/css/Style1.css">
+{% endblock %}
+{% block content %}
+<div class="container" style="margin-top:12%; width:1100px;">
+    <div class="header">
+        <h3 class="text-muted">Multiple Sequence Alignment</h3>
+    </div>
+    <hr />
+    <div>
+        <form action="muscle" method="post" enctype="multipart/form-data">
+            <div class="container" style="margin-top:1%; margin-bottom:5%; width:1100px">
+                <div>
+                    <fieldset class="collapsible panel panel-default form-wrapper" id="edit-d">
+                        <legend class="panel-heading">
+                            <a href="#" class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-d > .collapse">Alignment</a>
+                        </legend>
+                        <div class="panel-collapse collapse fade in">
+                            <div class="panel-body">
+                                <h3 style="margin-top:-1%; text-align:justify; font-size:18px;">
+                                    A multiple sequence alignment (MSA) is a sequence alignment of three or more biological sequences, generally protein, DNA, or RNA. The input set of query sequences are assumed to have an evolutionary relationship by which they are descended from a common ancestor and share a lineage. This program uses different program wrapper including MUSCLE, Clustalw and EMBOSS for multiple sequence alignment of biological sequences. Also, it can give different Format's output.
+                                </h3><br\>
+                                    <h4 class="panel-body">Upload the Fasta File of Multiple Sequences</h4>
+                                    <input class="panel-body" style="width:100%;" id="file" type="file" name="file">
+                                         <p style="color:dimgrey">{{result}}</p>
+                                         <h3 style="margin-top:0%" >Options</h3>
+                                         <table>
+                                         <tr>
+                                             <th>Minimum spacing between anchor columns</th>
+                                             <th>Maximum time to run in hours</th>
+                                             <th>Maximum number of iterations</th>
+                                         </tr>
+                                        <tr>
+                                            <td><input type="number" name="num" /></td>
+                                            <td><input type="text" name="hour" /></td>
+                                            <td><input type="text" name="iteration" /></td>
+                                        </tr>
+                                             <tr>
+                                                 <td>
+                                                     <select name="seqwei">
+                                                         <option value="clustalw" selected>Sequence weighting scheme</option>
+                                                         <option value="none">None</option>
+                                                         <option value="henikoff">Henikoff</option>
+                                                         <option value="henikoffpb">Henikoffpb</option>
+                                                         <option value="gsc">GSC</option>
+                                                         <option value="clustalw">Clustalw</option>
+                                                         <option value="threeway">threeway</option>
+                                                     </select>
+                                                 </td>
+                                                 <td>
+                                                     <select name="dismea">
+                                                         <option value="kmer6_6" selected>Distance Measure</option>
+                                                         <option value="kmer6_6">kmer6_6</option>
+                                                         <option value="kmer20_3">kmer20_3</option>
+                                                         <option value="kbit20_3">kbit20_3</option>
+                                                         <option value="kmer4_6">kmer4_6</option>
+                                                         <option value="kmer20_4">kmer20_4</option>
+                                                     </select>
+                                                 </td>
+                                                 <td>
+                                                     <select name="roomet">
+                                                         <option value="pseudo" selected>Method used to root tree</option>
+                                                         <option value="pseudo">Pseudo</option>
+                                                         <option value="midlongestspan">Midlongestspan</option>
+                                                         <option value="minavgleafdist">minavgleafdist</option>
+                                                     </select>
+                                                 </td>
+                                             </tr>
+                                             <tr style="background:none;">
+                                                 <td>
+                                                     <select name="clusmet">
+                                                         <option value="upgmb" selected>Clustering Method</option>
+                                                         <option value="upgmb">UPGMB</option>
+                                                         <option value="upgma">UPGMA</option>
+                                                         <option value="neighborjoining">Neighborjoining</option>
+                                                     </select>
+                                                 </td>
+
+                                                 <td>
+                                                     <select name="outfor">
+                                                         <option value="fasta" selected>Output Format</option>
+                                                         <option value="fasta">Fasta</option>
+                                                         <option value="msf">MSF</option>
+                                                         <option value="clw">Clustalw</option>
+                                                         <option value="clwstrict">Clwstrict</option>
+                                                         <option value="html">HTML (colored)</option>
+                                                         <option value="edialign">edialign (EMBOSS)</option>
+                                                         <option value="showalign">Pretty Format (EMBOSS)</option>
+                                                     </select>
+
+                                                 </td>
+                                             </tr>
+                                         </table>                                
+                                <br /> <br />
+                                <input class="button button1" type="submit" style="width:12%" value="Submit">
+                                         <p class="panel-body" style="color:dimgrey">{{res1}}</p>
+</div>
+                        </div>
+                    </fieldset>
+                    <h3 style="color:#4d4d4d; font-size:20px">References</h3>
+                    <ul>
+                        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308517/">RC1., E. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. PubMed, 19(32), 1792-1797.</a></li>
+                        <li><a href="https://www.ncbi.nlm.nih.gov/pubmed/10827456">Rice, P., Longden, I., & Bleasby, A. (2000). EMBOSS: the European Molecular Biology Open Software Suite. Trends Genet, 16(6), 276-277.</a></li>
+                        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC308517/">Thompson, J. D., et al. (1994). "CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice." Nucleic Acids Res 22(22): 4673-4680.</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+   {% endblock %}

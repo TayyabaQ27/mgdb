@@ -1,0 +1,10 @@
+<!DOCTYPE html><html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+        <head> <title>Tree Description</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head>
+        <body> <div style='margin-left:2%; margin-right:2%'>
+<h1>Tree Description</h1><p>Tree Name: Phylogenetic Tree<br>Tree ID: TreeID<br>Count Terminals: 4<br>Total Branch Length: 1.83573<br>Tree Weight: 1.0<br>Bifurcating: True<br>All Direct decendents are terminal: False</p><h4>Clades Name and Branch Length</h4><pre>Tree(id='TreeID', name='Phylogenetic Tree', rooted=False, weight=1.0)
+    Clade()
+        Clade(branch_length=0.48013, name='pak_c12_g1_i1')
+        Clade(branch_length=0.46767, name='china_c3_g1_i1')
+        Clade(branch_length=0.03133)
+            Clade(branch_length=0.42527, name='mex_c7_g1_i1')
+            Clade(branch_length=0.43133, name='Isl_gi|617883057|gb|GBCV01000717.1|')</pre><h4>Tree.Depth</h4><p>The result is a dictionary where the keys are all of the Clade instances in the tree, and the values are the distance from the root to each clade (including terminals).</p><pre>{Clade(branch_length=0.48013, name='pak_c12_g1_i1'): 0.48013, Clade(branch_length=0.46767, name='china_c3_g1_i1'): 0.46767, Clade(branch_length=0.43133, name='Isl_gi|617883057|gb|GBCV01000717.1|'): 0.46265999999999996, Clade(branch_length=0.42527, name='mex_c7_g1_i1'): 0.4566, Clade(): 0, Clade(branch_length=0.03133): 0.03133}</pre><h4>Terminals</h4><pre>[Clade(branch_length=0.48013, name='pak_c12_g1_i1'), Clade(branch_length=0.46767, name='china_c3_g1_i1'), Clade(branch_length=0.42527, name='mex_c7_g1_i1'), Clade(branch_length=0.43133, name='Isl_gi|617883057|gb|GBCV01000717.1|')]</pre><h4>Non Terminals</h4><pre>[Clade(), Clade(branch_length=0.03133)]</pre> </div> </body>

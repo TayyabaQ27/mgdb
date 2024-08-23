@@ -1,0 +1,44 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+mex_c7_g1_i1                        --------------------------------ACGATCTGGATGCCATTT
+Isl_gi|617883057|gb|GBCV010007      GTTTGGTTGCTGAGAAAATGGAGGAATAGAAAGGGAAATGAAGGAAGATT
+china_c3_g1_i1                      ---------------------------CTCCCATGGTCGGGCTGCCA-TC
+pak_c12_g1_i1                       ---------------------------------------------TAATT
+                                                                                    * 
+
+mex_c7_g1_i1                        CAGTGCACAAGCTCTATATT-TGAGGTTAAGCAGATGGAGATCA---GAC
+Isl_gi|617883057|gb|GBCV010007      GAA-GCAGAATTTTGACTTT-TTAGTGTCGACTGAGAGCTACTGTTTGAC
+china_c3_g1_i1                      CATCGCTCTAACCA---ACT-CCAACCCCAGTGGGGATTGTTTG---GAT
+pak_c12_g1_i1                       GAGTACATTTTGGGGAGTTTGCTCGGTTTAGTTGGGTGGTTTTG--TTCT
+                                     *   *             *             *                
+
+mex_c7_g1_i1                        TAATGAGGAAAGCATCTTC--CCATTGG--CAACACT--------GATGC
+Isl_gi|617883057|gb|GBCV010007      TTATTAGGAAGGATGTTTAAGCCACTAAATCGGGATTTTT--TCGAATTT
+china_c3_g1_i1                      CCATAAATGTTCGATTTGCAGATTTTGAAGAGTTCTTCAAGACATGCTGA
+pak_c12_g1_i1                       TGATTTCGGTGATGGTTGCTGAGAAAATGTCAGTTTTAGAG-CTTTTTTT
+                                      **            *                   *          *  
+
+mex_c7_g1_i1                        TTGGAAAATAAAGAAA-CAATACAAAGGATAAACAACCAAAAAATACTGA
+Isl_gi|617883057|gb|GBCV010007      TTATAGTGTTTGTACTTCGATCAGCTGCTTGGTTGATGAAAAAATGTAGG
+china_c3_g1_i1                      TGAGAAAATGCATAAGCCAATGCCCTCTCTCTTCTCATAGCAGCTTCTTG
+pak_c12_g1_i1                       TTTAAGAAGATTTAGCTGGTTGAGGTTGCTTGTTTGGTATCTCCTATGCA
+                                    *   *        *      *        *        *     *     
+
+mex_c7_g1_i1                        AT--CAGAAGCAAAATAATCT--AATCGACCACCGATAGTGAGCCAAAGA
+Isl_gi|617883057|gb|GBCV010007      AGAGCACAAGAAAATTAAACTGGAATTTTCTCTTGAAAG-AATTAAGGGA
+china_c3_g1_i1                      CT--TGTGCTGTAGTTTTGCTTTAATTTGCTCCTTAGACTGTAT------
+pak_c12_g1_i1                       GGTGTTTTTTTTCGTTTTTGTTCTATTAACTTTATATTCTTTGA-----A
+                                                   *    *   **   *     *              
+
+mex_c7_g1_i1                        G-AATCATTGAGGGCTTATGCAGTTTTGACTTCCTCGAGTTTGAGAGGAC
+Isl_gi|617883057|gb|GBCV010007      GTAACTATTTTGTTTTGATGTAGGTTTTTTGCAAGCAAAATTGATGTTAC
+china_c3_g1_i1                      GCTATCGTTCCATTCTTCTCCAACTTGAGAAGCACTAAACCTCTCCAGCT
+pak_c12_g1_i1                       GTTAATATCCGGAGCTGAGAGATTAAAGAACGTGGTAAAGTTGGTATTAG
+                                    *  *   *       *     *               *   *        
+
+mex_c7_g1_i1                        CATAAGCACT-TAGTCCAAG-
+Isl_gi|617883057|gb|GBCV010007      CGAGATTATTGTGTTTCTTGT
+china_c3_g1_i1                      CTTTCTCATGTTTTTG-----
+pak_c12_g1_i1                       AG-------------------
+                                                         

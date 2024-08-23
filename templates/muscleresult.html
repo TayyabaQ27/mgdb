@@ -1,0 +1,24 @@
+﻿{% extends "header.html" %}
+{% block head %}
+    <title>MSA Results</title>
+<style>
+    .pre-wrapper {
+        overflow: scroll;
+    }
+
+        .pre-wrapper pre {
+            float: left;
+        }
+</style>
+{% endblock %}
+{% block content %}
+<div class="container" style="margin-top:12%; margin-left:2%; margin-right:2%;margin-bottom:2%;">
+    <h3 class="text-muted">Multiple Sequence Alignment Results</h3>
+    <hr />
+    <div class="pre-wrapper"><pre>{{res}}</pre></div>
+    <h4>Download Output File </h4><a href="/msadownloadoutput" style="color:red">Download</a></div>
+{% for i in a %}
+<img src="{{i}}" />
+<button style="background-color:#a7c2e2"></button>
+    {% endfor %}
+    {% endblock %}

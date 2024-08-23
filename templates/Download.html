@@ -1,0 +1,78 @@
+﻿{% extends "header.html" %}
+{% block head %}
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-filestyle.min.js"></script>
+    <style>
+        table, td, th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size:large;
+        }
+
+        th, td {
+            padding: 15px;
+        }
+    </style>
+
+{% endblock %}
+{% block content %}
+    <div class="container" style="font-family:'Times New Roman'; margin-top:12%; margin-bottom:5%; width:1100px">
+    <div>
+        <fieldset class="collapsible panel panel-default form-wrapper" id="edit-b">
+            <legend class="panel-heading">
+                <a href="#" class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-b > .collapse">Downloads</a>
+            </legend>
+            <div class="panel-collapse collapse fade in">
+                <div class="panel-body">
+                    <h5 class="panel-body" style="margin-top:-3%; font-size:15px; text-align:justify; font-size:18px">Following Fasta files contain transcriptomic sequences of Mango cultivars from different countries.</h5>
+                    <table>
+                        <tr>
+                            <th>Title</th>
+                            <th>Country</th>
+                            <th>Nucleotide</th>
+                            <th>Protein</th>
+                        </tr>
+                        <tr>
+                            <td rowspan="1">Mango (Magnifera <em>Indica</em> L.) transcriptomic sequence dataset (cultivar Langra)</td>
+                            <td>Pakistan</td>
+                            <td><a href="Pakistan">Download</a></td>
+                            <td><a href="Pakistanpro">Download</a></td>
+
+                        </tr>
+                        <tr>
+                            <td rowspan="1">Mango (Magnifera <em>Indica</em> L.) transcriptomic sequence dataset (cultivar Kent)</td>
+                            <td>Mexico</td>
+                            <td><a href="Mexico">Download</a></td>
+                            <td><a href="Mexicopro">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1">Mango (Magnifera <em>Indica</em> L.) transcriptomic sequence dataset (cultivar Keitt)</td>
+                            <td>Israel</td>
+                            <td><a href="Israel">Download</a></td>
+                            <td><a href="Israelpro">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1">Mango (Magnifera <em>Indica</em> L.) transcriptomic sequence dataset (cultivar Zill)</td>
+                            <td>China</td>
+                            <td><a href="China">Download</a></td>
+                            <td><a href="Chinapro">Download</a></td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
+        </fieldset>
+    </div></div>
+{% endblock %}

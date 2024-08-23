@@ -1,0 +1,87 @@
+﻿{% extends "header.html" %}
+ {% block head %}
+<title>User Guide</title>
+    {% endblock %}
+    {% block content %}
+<section>
+    <div id="head">
+        <div class="line">
+            <h1>User Guide</h1>
+        </div>
+    </div>
+    <div id="content" class="left-align contact-page" style="font-family:'Times New Roman'">
+        <div class="line">
+            <div class="s-12 l-6" style=" margin-top:-3%; margin-left:3%; width:1200px; text-align:justify;">
+                <h2 style="font-size:xx-large; text-align:center">Tutorials</h2>
+                <hr />
+                <h3 style="font-size:x-large">Blast Tutorial</h3>
+                <ul style="font-size:18px">
+                <li>Select the Blast option from MGD Home Page.</li>
+                <li>Select Nucleotide (blastn) or Protein (blastp) blast. In Nucleotide blast, you need to enter, paste or upload the nucleotide (ATCG) sequence in the area given which will be queried against nucleotide database for the results. In blastn you need to enter protein sequence which will be queried against protein database for results.
+                <br /><p style="color:grey">Note: Do not enter the letters other than ATCG, the sequence should be in FASTA format see the example for format.</p></li>
+                <li>Select the database. There are four dataset of Mangifera <em>indica</em> L. cultivars from four different countries.</li>
+                <li>Choose the advance options if needed. Maximum target sequences option is the number of aligned sequences to keep, E-value is the expected threshold, word size is the length of initial exact match, Percent identity cutoff set the identity level for the word size. Match/Mismatch score and gap cost are the algorithm parameter which are the cost for gap or mismatch and reward for matching letters. </li>
+                <li>Click on Blast button to submit the query. The results will be loaded after few seconds or minutes depending upon the query size.</li>
+                <li>The Results will be displayed in three secttion. In first section the filename, blast version and other basic information will be mentioned. The second section display the table with only the description of hits, hsps and ID (overview of results). The third section is consist of table with detail information and alignment which can be seen by clicking each particular record. </li>
+                </ul>
+                <video width="800" height="500" style="margin-left:17%;" controls>
+                    <source src="static/blast.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 style="font-size:x-large">Gene Search Tutorial</h3>
+                <ul style="font-size:18px">
+                    <li>Select the gene search option from MGD Home page.</li>
+                    <li>You can search the gene and filter the results with the help of three options: gene name, length and Keyword. The keyword can be any enzyme or protein name or a GO term. <br />
+                    <p style="color:grey">Note: Do not enter the floating point number in the length option, it will only accept integer no. Also, do not enter the integer or floating point number in a string options (keyword and gene name).</p></li>
+                    <li>Click on the submit button to submit the query.</li>
+                    <li>The results will be shown in a table. Click on a particular record to see the FASTA sequence of each hit.</li>
+</ul>
+                <video width="800" height="500" style="margin-left:17%;" controls>
+                    <source src="static/genesearch.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 style="font-size:x-large">Phylogeny Tutorial</h3>
+                <ul style="font-size:18px">
+                    <li>Choose the Phylogeny option from the other tools category in MGD Home page.</li>
+                    <li>Upload the multiple sequences file in FASTA format and click on Sumit button.</li>
+                    <li>The Phylogeny results show the sequence alignment in ClustalW format and allows you to download the alignment and view the phylip format.</li>
+                    <li>You can view the phylogenetic tree in three different format: consensus, PAML and the simple Phylo tree.</li>
+                    <li>Using the advance options you can edit the image results. For example: show labels, find clade and mention it with different colour etc. This image can also be edit with the Figure tools including zoom, configure subplot and saved for future use.</li>
+                    <li>With the options in the end you can calculate the branch length of the clades, collapse and add the clades in the tree.</li>
+                </ul>
+                <video width="800" height="500" style="margin-left:17%;" controls>
+                    <source src="static/phylogeny.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 style="font-size:x-large">Multiple Sequence Alignment Tutorial</h3>
+                <ul style="font-size:18px">
+                    <li>Choose the Multiple SA (sequence Alignment) option from the other tools category in MGD Home page.</li>
+                    <li>Upload the Fasta File of Multiple Sequence and select the options given according to your choice.<br />
+                        <p style="color:grey">Note: There are different output formats available including clustalw, html, Fasta etc. If you do not choose any option for output format then the results will be shown in the Fasta format.</li>
+                    <li>Minimum spacing between anchor columns is the no of gaps you allow between the matching column, sequence weighting scheme are the methods that imporove the scoring function with a secondary weighting function that assigns scaling factors to individual members of the query set in a nonlinear fashion based on their phylogenetic distance from their nearest neighbors, Distance matrix estimate tree according to the method and then do progressive alignment according to this tree, sequence clustering method attempts to group sequences that are somehow related.</li>
+                    <li>Click on submit button to get the results.</li>
+                    <li>You can download the file and images for later use.</li>
+                    </ul>
+                <video width="800" height="500" style="margin-left:17%;" controls>
+                    <source src="static/msa.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h3 style="font-size:x-large">Plotting Tutorial</h3>
+                <ul style="font-size:18px">
+                    <li>Choose the Plotting option from the other tools category in MGD Home page.</li>
+                    <li>Click on the link of any option to expand the view.</li>
+                    <li>Histrogram of the Sequence length will plot a graph between the sequence length and the no of sequences of this length, the GC plot is the graph between the GC% and the Genes, the dot plot between two and multiple sequences are the graphs in which the matching residues are represented as dots. </li>
+                    <li>The phred quality graph is between position of the base and its score. Phred quality scores are assigned to each nucleotide base call in automated sequencer traces. For this plot the file should in fastq or fq format or have this extention.</li>
+                    <li>Now upload the file and save the results. You can edit the image with the image tools if needed.</li>
+
+                    </ul>
+                <video width="800" height="500" style="margin-left:17%;" controls>
+                    <source src="static/plotting.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+</div>
+            </div>
+        </div>
+    </section>
+                {% endblock %}

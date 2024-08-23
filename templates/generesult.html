@@ -1,0 +1,63 @@
+{% extends "header.html" %}
+            {% block head %}
+            <meta charset="utf-8" />
+        <link rel="stylesheet" href="static/css/Style1.css">
+                    <title>Gene Search Results</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+            <link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.css" media="all" />
+            <script src="https://www.citrusgenomedb.org/sites/all/libraries/jstree/jstree.js?owlcpl"></script>
+                <script src="https://code.jquery.com/jquery-1.12.4.min.js?owlcpl"></script>
+               <script type="text/javascript">
+                // JQuery controlling display of the alignment information (hidden by default)
+                $(document).ready(function () {
+
+                    // Hide the alignment rows in the table
+                    // (ie: all rows not labelled with the class "result-summary" which contains the tabular
+                    // summary of the hit)
+                    $("#blast_report tr:not(.result-summary)").hide();
+                    $("#blast_report tr:first-child").show();
+
+                    // When a results summary row is clicked then show the next row in the table
+                    // which should be corresponding the alignment information
+                    $("#blast_report tr.result-summary").click(function () {
+                        $(this).next("tr").toggle();
+                        $(this).find(".arrow").toggleClass("up");
+                    });
+                });
+                </script>
+            <link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.css" media="all" />
+            <script src="https://www.citrusgenomedb.org/sites/all/libraries/jstree/jstree.js?owlcpl"></script>
+                <script src="https://code.jquery.com/jquery-1.12.4.min.js?owlcpl"></script>
+            <style>table, th, td {border:none ;border-collapse: collapse;}
+            th, td {padding: 5px;text-align: left;}</style>
+    {% endblock %}
+    {% block content %}
+            <div class="container" style="margin-top:12%; margin-left:4%; margin-right:2%;margin-bottom:2%;">
+            <form method="post" enctype="multipart/form-data">
+            <fieldset class="collapsible panel panel-default form-wrapper" id="edit-b">
+            <legend class="panel-heading"><a href="#" class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-b > .collapse">Show Results</a></legend>
+            <div class="panel-collapse collapse fade in"><div class="panel-body">
+            
+<h3 class="panel-body" style="text-align:justify; margin-top:-2%; font-size:16px; font-weight:lighter;">The table below summarizes the results of your Search. Please click on a target name or anywhere in a row to see the Nucleotide sequence of particular Hit.</h3><div class="panel-body"><div class="table-responsive"><table id="blast_report" class="table table-hover table-striped">
+        <thead><tr><th>SEQ ID</th><th>Length</th><th>E-value</th><th>GO Terms</th><th>Enzyme name</th></tr></thead>
+<tr class="result-summary"><td>pak_c26422_g1_i1</td><td>1137</td><td>7.04E-89</td><td>F:ATP binding; F:2-alkenal reductase [NAD(P)] activity; C:integral component of membrane; F:protein kinase activity; P:oxidation-reduction process; P:protein phosphorylation</td><td>2-alkenal reductase (NAD(P)(+))</td></tr>
+<tr class="alignment-row odd">
+                                <td colspan="5">
+                                    <div class="alignment-row-section hit-visualization"  title="This is the sequence of the Hit shown above"><pre style="width:1040px; height:100px" class="panel-body">>pak_c26422_g1_i1 probable LRR receptor-like serine threonine- kinase At2g16250 len=1137
+ACCTATAATTTAATTCGTGATTCAGCTTTGGGCGCTTGATTACTGAATAACTTGGAAATTGAATATGTTGAAGAAGAAAACCTAAGCTTTTACAATTTTACCAGGGACCTATAAGAGAGTATCAATTACACGAAATTTCTACAGCTTGCTTTAACAATCAGCAAGCTCTGAAACCCAAAAAAGAAAAAAAAATGGTTGAAAAAATAGATTCTTTGGTTGTCTCATTTACACCAGCAGACTCTTCAGCCATTTCCTCGCTAAACTTAGTAGCATCTGGCTGCAGTGCTAGTCTTCTGAAAGCTTATTAAGGAGATTCACTCTTCGATGAGATGGTCTTTCAATCGGATTATGCAAAATCAATAAAATATAATCCCAATCACTCTTTCAGCTAATGCACCTCTTGCCTCTCCATTTCCTGCATATCTACTGGTTCAGGGAAAATCTCATTTGATAACCTTTTATTTGAAGACGAGTGCTCAATTCCACCGCTGCCATGAGAGCCTAATCTCCCCAGCTGTTTCAGACCACCGATACCTTCTCTAGTTGGTTGACCAGAAATGGTTGCACTCTCTGATGAACTCTGTCGCCAACTACCAAAGAAAGTGGTACTCCATGACTGTCTAGATGAAGTTGTTCTGAGCCTTGCGGAGCTGAAACTCTCCACTCTCACCACTTTAAAAGGGTTTTCCAATGCTTTTAGAATGTATTTCATCGGTGGTCGTTTTGAGGGCTTGGGGTTTAGGCATGATCTCGCCACAATTGCCGTAGCCCATACTTCTTCCAATAAATCTTCATCTACAATCAGAGATGGATCAACAATCTTTGTCACCATTTCTTTGTCATTTATACTGATGTAAGGTAGCGTATGTTCCAACCACTCTCTCGTAGTAGCCTCATCCGATTTGCTAATGCCAAGCTTGCCCGTTACAAGCTCAAGTAAGACTTTACCGAAGCAGTAGATATCATAAGCACATGTTGCAGTGGATGAACCTGTTCATCATTGAGGAAAATTATTATAATCGATCTCATTTCAATCTTAGTACAATGGGACGATGAAAAACCTAAGAAAAAGGCATATACTGAACACAAAGCTGAACAATGACACTGGATAATAATGCAGAATTTATCATTGGAGAA</pre></div></td></tr>
+<tr class="result-summary"><td>pak_c26431_g1_i1</td><td>1183</td><td>6.33E-176</td><td>F:ATP binding; C:integral component of membrane; F:protein serine/threonine kinase activity; P:protein phosphorylation</td><td>Transferring phosphorus-containing groups</td></tr>
+<tr class="alignment-row odd">
+                                <td colspan="5">
+                                    <div class="alignment-row-section hit-visualization"  title="This is the sequence of the Hit shown above"><pre style="width:1040px; height:100px" class="panel-body">>pak_c26431_g1_i1 probable receptor kinase At1g11050 len=1183
+AATATATATAAAATATATTATTATATAATTAAATAATTAAAAATAAATTAATATCTAATTAAAAATATATATTATTATTTATGTATAAAATTACGAATACGGATGCTACACACTCTGCTTTCAATTTCAACTATTGCATCTTCTACACGAAACGTAATTACGTGGTAAAAACGTTGTGTTTGAATTCAAATTTCAAAGCTTATCGAACCCAATAGTAATTTTCCCGTGTTTGTTGCAATTAAGCTACAAAACCAGCTGACTATGCACTAGACATAGACATCATCGTGCTCGTTAAGCTGGAGCTGTTTCTCGATCTTCCACTTGTTGACGTACTTTGCCACAAAGATGATCTATACGACTCATGACTAAGCGGCAATGGCCTCTCTGGCAATCTCGGAATGTCAATATCGCCTTCAAGCATCTTCAAAGCTTCTGCAATGGTAGGCCTGAGCGCCACCATGACATGTGCACAAAGAATCCCCACAAGAACAAACCTCTCCATCACCCCTTTTGGTCCTCCTTCTCTTATTGACTCGTCAAAGATTTCTTCCACTTTTCCAGATTTCGCAAGAGTCCAAGCCCAGTCTGTGATCAAAAGAAACGATGAATTCGATGTGTCCAGTACTTTTCTCCCGCTCATTATCTCTAAAATCACAATCCCGAAGCTGTACACGTCGCTCTTCTCGGTTAACTGCCCATAAAGGGCGTACTCGGGGGCTAAATAGCCGTGTGTGCCGGCGACTCTTGTGGTGAGATGAGATTGTCCTTCTAAATTCTGCTTGGCTAGTCCGAAATCTGCAACTCTTGCTTTGAGTTCTGAGTCTAAAAGTATGTTGGTGGCCTTGATGTCTCGGTGATAAATGGCGGGTTGGAGTCCATAGTGTAAGTATGCAAGTCCTGTAGCCACATCGAGGATGATTTTCTTGCGTTGAGGCCATGTTAATTGGTTTCTGGTGAGGTTATTGAACAAATGGTCGCTGAGACTGCCATTAGACATGAAATCGTAAACAAGAAATCTTCTCTTACCTCTCAAGTAATCGCTTGAGAGGCAGCAGCCTCGAAGAGAAAGAAGATTTCTGTGCCTTATTTTGCTTATGATCTCAACTTCATTGATGAACTCTTCATCGCCTTTGGAGTCCAAATCAAGGATTTGTTTCACAGCAACCAAAGTTCCATCAGAGAG</pre></div></td></tr>
+<tr class="result-summary"><td>pak_c26431_g2_i1</td><td>958</td><td>5.82E-124</td><td>F:nucleotide binding; C:membrane; F:protein kinase activity</td><td></td></tr>
+<tr class="alignment-row odd">
+                                <td colspan="5">
+                                    <div class="alignment-row-section hit-visualization"  title="This is the sequence of the Hit shown above"><pre style="width:1040px; height:100px" class="panel-body">>pak_c26431_g2_i1 probable receptor kinase At1g11050 len=958
+CAGCAAACAAAGTTCCATCAGAGAGAGTTCCTTTGTAAACAATCCCAGATGCTCCTTGGCCTATCATGTTTCTCTGAGAAAACGCATTTGTGGCTCGTTCAAGCTCTGATACATGGAACCATTTTGCGCCACAGTTTGGCAAGACGGTGGCCCTAAAACTGTTAACAAATTCATCATGCAAAGCATTTCTCTTCCTGTTCTTATCCCACTTCCTGTACACAATGATAATTACACAAGAGAATAGAACACCAGCAACAGCACCAAATAAAGCGAAAGATAATTTGATTATGCTTTCCCGGCTCATCGATGGATTGCTTGCAGCCAAAGGCAACCCCAGTATGCAAGCAGCAGCATTCGGATCCTTGGGGTCATTAAGAATCCCAGCAGCGTATAAAACAGTGAAGTAAAAACATTTTGACGAATTTGGAGCTAATCCCACCAGCTGAGAAGTCACTGTGTTGCCAGCGTCAAGACACGCGCTACACTGAGTTAGCCCAGTCATATTCTCGCACGCCATGTTTAATGAAGTCACCTGACCCACCTTCTCTATCCAGTCATTTTTCGTTTCGATTCCGGCACAACTGGAAGTGTTGGTGACAAACTGGGTGTAGTTCTTGAAGCAAAGCGGGACTACAGCCGGATCTATTGACAAAGCAGAGAGTTTATCTTGGAAATTGGTTAAGCAAGAGAAAGAAGCGTTTTGATTTTGTAGTTGAAAGTTGGAGGTGTCTCTCAGATACTGTGCAAGTCCTATACCAATAAGACTGAGCAGACTTTGGCAGCAGTTGGTTCCATTAGGATCCTGCAGGCACAAAGATCTGTCCCAGGGATAAGTTTGGACATAGGAAAGATCCATAGGACATGAAGAATCAATGGAGAAAGTTGTGAAGAAGGAAAGGAAAAGGGTGAGAAAGAAGAAGATGAGGCTAGCCATGTTGAGTCTGACAGTGTAATTTGG</pre></div></td></tr>
+</table></div></div></fieldset></form></div>{% endblock %}

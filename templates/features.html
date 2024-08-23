@@ -1,0 +1,68 @@
+{% extends "header.html" %}
+        {% block head %}
+        <title>Blast information</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+        <link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.css" media="all" />
+        <script src="https://www.citrusgenomedb.org/sites/all/libraries/jstree/jstree.js?owlcpl"></script>
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js?owlcpl"></script>
+            <script type="text/javascript">
+            // JQuery controlling display of the alignment information (hidden by default)
+            $(document).ready(function () {
+
+                // Hide the alignment rows in the table
+                // (ie: all rows not labelled with the class "result-summary" which contains the tabular
+                // summary of the hit)
+                $("#blast_report tr:not(.result-summary)").hide();
+                $("#blast_report tr:first-child").show();
+
+                // When a results summary row is clicked then show the next row in the table
+                // which should be corresponding the alignment information
+                $("#blast_report tr.result-summary").click(function () {
+                    $(this).next("tr").toggle();
+                    $(this).find(".arrow").toggleClass("up");
+                });
+            });
+            </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>table, th, td {border:none ;border-collapse: collapse;}
+        th, td {padding: 5px;text-align: left;}</style>
+        {% endblock %}{% block content %}
+        <div class="container" style="margin-top:12%; width:1100px">
+        <form method="post" enctype="multipart/form-data">
+        <fieldset class="collapsible panel panel-default form-wrapper" id="edit-b">
+        <legend class="panel-heading"><a href="#" class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-b > .collapse">Show Results</a></legend>
+        <div class="panel-collapse collapse fade in"><div class="panel-body">
+        <fieldset class="collapsible panel panel-default form-wrapper" id="edit-query">
+        <legend class="panel-heading"><a href="#" class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-query > .collapse">Blast Results</a></legend>
+        <center><h1 class="panel-body">Blast Results</h1><h3 class="panel-body" style="text-align:justify; font-size:16px; font-weight:lighter;">BLAST finds regions of similarity between biological sequences. The program compares nucleotide or protein sequences to sequence databases and calculates the statistical significance. </h3>
+<h2 class='panel-body' style='text-align:left; font-size:20px; font-weight:bold; margin-top:-25px'>Download Files: <a href='/getPlotCSV' style='color:gray;font-size:16px; font-weight:lighter;'>Xml File</a><a href='/alignment' style='color:gray;font-size:16px; font-weight:lighter;'>, Alignment</a></h2>
+<p class='panel-body' style='margin-top:-25px; text-align:justify;'><b>Database Name: </b>PAKISTANLANGRA<br/><b>Database Sequences: </b>30953<br/><b>Blast Application: </b>BLASTN<br/><b>Blast Version: </b>2.2.31+<br/><b>Blastn Command Executed: </b>blastp -out Seq.xml -outfmt 11 -query Seq1.fasta -db PAKPROT -evalue 0.001 -word_size 6 -max_target_seqs 500 -gapopen 11 -gapextend 1 -matrix=BLOSUM62</p>
+<pre class='panel-body' style='text-align:left; background:inherit'>Program: blastn (2.2.31+)
+  Query: pak_c12_g1_i1 (249)
+ Target: PAKISTANLANGRA
+   Hits: ----  -----  ----------------------------------------------------------
+            #  # HSP  ID + description
+         ----  -----  ----------------------------------------------------------
+            0      1  pak_c12_g1_i1  cultivar:magnifera indica len=249 
+Program: blastn (2.2.31+)
+  Query: china_c3_g1_i1 (273)
+ Target: PAKISTANLANGRA
+   Hits: ----  -----  ----------------------------------------------------------
+            #  # HSP  ID + description
+         ----  -----  ----------------------------------------------------------
+            0      1  pak_c11284_g1_i1  cultivar:magnifera indica sp|Q9SF32|I...
+</pre>
+<h3 class='panel-body' style='text-align:justify; font-size:16px; font-weight:lighter;'>The table below summarizes the results of your BLAST. Please click on a target name or anywhere in a row to see the alignment.</h3><div class='panel-body'><div class='table-responsive'><table id='blast_report' class='table table-hover table-striped'>
+<thead style='background-color:#b5b4b4'><tr><th class='number'>S.No</th><th>Hit</th><th>Hsp</th><th>QueryID</th><th class='query'>Target Name  (Click for alignment)</th><th>Length</th><th class='evalue'>E-Value</th><th>Score</th><th>Gaps</th> </tr></thead><tbody>
+<tr class='result-summary'><td class='number'>1</td><td>1</td><td>1</td><td>Query_1</td><td class='query'>gnl|BL_ORD_ID|0 pak_c12_g1_i1 cultivar:magnifera indica len=249 </td><td>249</td><td class='evalue'>1.484e-135</td><td>249.0</td><td>0</td></tr>
+<tr class='result-summary'><td class='number'>2</td><td>2</td><td>1</td><td>Query_2</td><td class='query'>gnl|BL_ORD_ID|4682 pak_c11284_g1_i1 cultivar:magnifera indica sp|Q9SF32|IQD1_ARATH identiy:48.65 len=309 </td><td>309</td><td class='evalue'>1.977e-50</td><td>102.0</td><td>0</td></tr>
+</tbody></table></div><h2>No of Hits found: 2</h2><br/></center></fieldset></div></div>
+</div></div></div><h3 style="text-align:center">found 1 records in query, 2 have hits, making 1 misses</h3>
+</fieldset></form></div>{% endblock %}

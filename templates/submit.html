@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+        <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+            <title>Blast</title>
+            <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+            <link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.css" media="all" />
+            <script src="https://www.citrusgenomedb.org/sites/all/libraries/jstree/jstree.js?owlcpl"></script>
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js?owlcpl"></script>
+            <script type="text/javascript">
+            // JQuery controlling display of the alignment information (hidden by default)
+            $(document).ready(function () {
+
+                // Hide the alignment rows in the table
+                // (ie: all rows not labelled with the class "result-summary" which contains the tabular
+                // summary of the hit)
+                $("#blast_report tr:not(.result-summary)").hide();
+                $("#blast_report tr:first-child").show();
+
+                // When a results summary row is clicked then show the next row in the table
+                // which should be corresponding the alignment information
+                $("#blast_report tr.result-summary").click(function () {
+                    $(this).next("tr").toggle();
+                    $(this).find(".arrow").toggleClass("up");
+                });
+            });
+            </script>
+
+        
+        </head>
+        <body>
+            <div class="table-responsive">
+                <table id="blast_report" class="table table-hover table-striped">
+                    <thead style="background-color:#b5b4b4"><tr><th class="arrow-col"></th><th class="number">#</th><th class="query">Query Name  (Click for alignment & visualization)</th><th class="hit">Target Name</th><th class="evalue">E-Value</th><th>Length</th> </tr></thead>
+                    <tbody>
+                        <tr class="result-summary"><td class="arrow-col"><div class="arrow"></div></td><td class="number">1</td><td class="query">partial lipoxygenase Glyma15g03040</td><td class="hit"><a href="https://www.citrusgenomedb.org/feature/clementine0.9_005006m" target="_blank">clementine0.9_005006m</a></td><td class="evalue">1.35188E-11</td> </tr>
+                        <tr class="alignment-row odd">
+                            <td colspan="5">
+                                <div class="alignment-row-section hit-visualization" title="Your query sequence is shown at the bottom and the target sequence it aligned to is shown at the top. The shape connecting them indicates how much of the target and query are represented by the hit.">
+                                    <div class="title">Hit Visualization</div>
+                                    </div></td></tr>
+                        <tr class="result-summary"><td class="arrow-col"><div class="arrow"></div></td><td class="number">1</td><td class="query">partial lipoxygenase Glyma15g03040</td><td class="hit"><a href="https://www.citrusgenomedb.org/feature/clementine0.9_005006m" target="_blank">clementine0.9_005006m</a></td><td class="evalue">1.35188E-11</td> </tr>
+                        <tr class="alignment-row odd">
+                            <td colspan="5">
+                                <div class="alignment-row-section hit-visualization" title="Your query sequence is shown at the bottom and the target sequence it aligned to is shown at the top. The shape connecting them indicates how much of the target and query are represented by the hit.">
+                                    <div class="title">Hit Visualization</div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="result-summary"><td class="arrow-col"><div class="arrow"></div></td><td class="number">1</td><td class="query">partial lipoxygenase Glyma15g03040</td><td class="hit"><a href="https://www.citrusgenomedb.org/feature/clementine0.9_005006m" target="_blank">clementine0.9_005006m</a></td><td class="evalue">1.35188E-11</td> </tr>
+                        <tr class="alignment-row odd">
+                            <td colspan="5">
+                                <div class="alignment-row-section hit-visualization" title="Your query sequence is shown at the bottom and the target sequence it aligned to is shown at the top. The shape connecting them indicates how much of the target and query are represented by the hit.">
+                                    <div class="title">Hit Visualization</div>
+                                </div>
+                            </td>
+                        </tr>
+
+
+                        </tbody></table></div>
+        </body>
+</html>

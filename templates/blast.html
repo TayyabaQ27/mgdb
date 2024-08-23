@@ -1,0 +1,67 @@
+﻿{% extends "header.html" %}
+{% block head %}
+    <title>BLast</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-filestyle.min.js"></script>
+<style>
+    table, td, th {
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 15px;
+    }
+</style>
+{% endblock %}
+{% block content %}
+    <div class="container" style="font-family:'Times New Roman'; font-size:medium; margin-top:12%; margin-bottom:5%; width:1100px">
+        <div >
+            <fieldset class="collapsible panel panel-default form-wrapper" id="edit-b">
+                <legend class="panel-heading">
+                    <a href="#" class="panel-title fieldset-legend" data-toggle="collapse" data-target="#edit-b > .collapse">BLAST</a>
+                </legend>
+                <div class="panel-collapse collapse fade in">
+                    <div class="panel-body">
+                        <h5 class="panel-body" style="margin-top:-3%; font-size:18px; text-align:justify;">This Basic local alignment search tool uses the NCBI blast application which allows you to search your one or more query against our Mango Genome Database. Please click on the red link to select the option, you'll be asked for the query sequence and other parameters in the selected page.</h5>
+                        <h4 class="panel-body" style="margin-top:-1%">Please select the appropriate choice:</h4>
+                        <table>
+                            <tr>
+                                <th>Query Type</th>
+                                <th>Database Type</th>
+                                <th>BLAST Program</th>
+                            </tr>
+                            <tr>
+                                <td rowspan="1">Nucleotide</td>
+                                <td>Nucleotide</td>
+                                <td>
+                                    <a href="../gotoindex" style="color:#ff0000">blastn</a>:
+                                    Search a nucleotide database using a nucleotide query.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="1">Protein</td>
+                                <td>Protein</td>
+                                <td>
+                                    <a href="../blastp"style="color:#ff0000" >blastp</a>:
+                                    Search protein database using a protein query.
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                                        </div>
+                                    </fieldset>
+            <h3 style="color:#4d4d4d; font-size:20px">References</h3>
+            <ul>
+                <li><a href="http://www.sciencedirect.com/science/article/pii/S0022283605803602">Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic local alignment search tool. J Mol Biol, 215(3), 403-410.</a></li>
+            </ul>
+                                </div></div>
+{% endblock %}

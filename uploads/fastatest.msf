@@ -1,0 +1,50 @@
+PileUp
+
+  MSF: 383  Type: N  Check: 0000  ..
+
+ Name: mex_c7_g1_i1                         Len: 383  Check:  5020  Weight: 0.259303
+ Name: china_c3_g1_i1                       Len: 383  Check:  2855  Weight: 0.256453
+ Name: pak_c12_g1_i1                        Len: 383  Check:  8990  Weight: 0.242122
+ Name: Isl_gi|617883057|gb|GBCV01000717.1|  Len: 383  Check:  5841  Weight: 0.242122
+
+//
+
+mex_c7_g1_i1                           .....ACGAT CTGGATGCCA TTTCAGTGCA CAAGCTCTAT ATTTGAGGTT
+china_c3_g1_i1                         CTCCCATGGT CGGGCTGCCA TC.CATCGCT CTAAC...CA ACTCCAACCC
+pak_c12_g1_i1                          ......TAAT TGAGT..... .......... ........AC ATTTTGGG..
+Isl_gi|617883057|gb|GBCV01000717.1|    ........GT TTGGTTGCTG AG........ ........AA AATGGAGGAA
+
+mex_c7_g1_i1                           AAGCAGATGG AGATCAGACT AATGAGGAAA GCATCTTCCC ATTGGCAACA
+china_c3_g1_i1                         CAGTGGGGAT TGTTTGGATC CATAAATGTT CGATTTGCAG ATT.......
+pak_c12_g1_i1                          .....GAGTT TGCTCGGTTT AGTTGGG... TGGTTTTGTT CTTGATTTCG
+Isl_gi|617883057|gb|GBCV01000717.1|    TAGAAAGGGA AATGAAGGAA GATTGAAGCA GAATTTTGAC TTT.......
+
+mex_c7_g1_i1                           CTGATG.... .......... .....CTTGG AAAATAAAGA AACAA.....
+china_c3_g1_i1                         TTGAAGAGTT CTTCAAGACA TGCTGATGAG AAAATGCATA AGCCAATGCC
+pak_c12_g1_i1                          GTGATG.... .......... .GTTGCTGAG AAAATGTCAG TTTTAGAGCT
+Isl_gi|617883057|gb|GBCV01000717.1|    TTAGTG.... .......... .TCGACTGAG AG........ ..CTACTGTT
+
+mex_c7_g1_i1                           ........TA CAAAGGATAA ACAACCAAAA AATACTGAAT CAGAA.....
+china_c3_g1_i1                         CTCTCTCTT. .......... .CTCATAGCA GCTTCTTGCT TGTGCT....
+pak_c12_g1_i1                          TTTTTTTTTA AGAAGATTTA GCTGGTTGAG GTTGCTTGTT TGGTATCTCC
+Isl_gi|617883057|gb|GBCV01000717.1|    TGACTTATTA GGAAGGAT.. ....GTTTAA GCCACTAAAT CGGGATTTTT
+
+mex_c7_g1_i1                           .......... .......... .......... .......... ......GCAA
+china_c3_g1_i1                         .......... ......GTAG TTTTGCTTTA ATTTGCTCCT TAGACTGTAT
+pak_c12_g1_i1                          TATGCAGGTG TTTTTTTTCG TTTTTGTTCT ATTAACTTTA TATTCTTTGA
+Isl_gi|617883057|gb|GBCV01000717.1|    T...CGAATT TTTATAGTGT TTGTACTTCG ATCAGCTGCT TGGTTGATGA
+
+mex_c7_g1_i1                           A..ATAATCT AATCGACCAC C..GATAGTG AGCCAAAG.. .......AGA
+china_c3_g1_i1                         GCTATCGTTC CATTCTTCTC C......... AACTTGAG.. .........A
+pak_c12_g1_i1                          A......GTT AAT....... .......... ATCCGGAG.. ..........
+Isl_gi|617883057|gb|GBCV01000717.1|    A..AAAATGT AGGAGAGCAC AAGAAAATTA AACTGGAATT TTCTCTTGAA
+
+mex_c7_g1_i1                           ATCATTGAGG GCTTATGCAG TTTTGACTTC CTCGAGTTTG AGAGGACCAT
+china_c3_g1_i1                         AGCACTAA.. ....ACCTCT CCAGCTCTTT CTCATGTTTT TG........
+pak_c12_g1_i1                          ....CTGAGA GATTAAAGAA CGTGGTAAAG TTGGTATTAG AG........
+Isl_gi|617883057|gb|GBCV01000717.1|    AGAATTAAGG GAGTAACTAT TTTGTTTTGA TGTAGGTTTT TTGCAAGCAA
+
+mex_c7_g1_i1                           AAGCACTTAG TCCAAG.... .......... ...
+china_c3_g1_i1                         .......... .......... .......... ...
+pak_c12_g1_i1                          .......... .......... .......... ...
+Isl_gi|617883057|gb|GBCV01000717.1|    AATTGATGTT ACCGAGATTA TTGTGTTTCT TGT

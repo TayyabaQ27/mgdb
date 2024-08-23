@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="static/css/components.css">
+    <link rel="stylesheet" href="static/css/responsee.css">
+    <link rel="stylesheet" href="static/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="static/owl-carousel/owl.theme.css">
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="static/css/template-style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="static/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="static/js/modernizr.js"></script>
+    <script type="text/javascript" src="static/js/responsee.js"></script>
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="static/owl-carousel/owl.carousel.js"></script>
+    <style>
+        #hero-image {
+            height: 450px;
+            padding: 20px;
+            border: solid thin #808080;
+            margin-left: 3%;
+            margin-right: 3%;
+            border-radius: 25px;
+            box-shadow: 3px 3px grey;
+        }
+    </style>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $("#owl-demo").owlCarousel({
+                slideSpeed: 300,
+                autoPlay: true,
+                navigation: false,
+                pagination: false,
+                singleItem: true
+            });
+            $("#owl-demo2").owlCarousel({
+                slideSpeed: 300,
+                autoPlay: true,
+                navigation: false,
+                pagination: true,
+                singleItem: true
+            });
+        });
+
+    </script>
+    {% block head %}
+    {% endblock %}
+    
+</head >
+            <body onload="changeHashOnLoad();">
+                <!-- TOP NAV WITH LOGO -->
+    <header >
+                    <nav>
+                        <div class="line">
+                            <div class="top-nav">
+                                <div class="logo">
+                                </div>
+                                <p class="nav-text"></p>
+                                <div class="top-nav s-12 l-5">
+                                    <ul class="right top-ul chevron">
+
+                                        <li>
+                                            <a href="genese">Gene Search</a>
+                                        </li>
+                                        <li>
+                                            <a href="blast">Blast</a>
+                                        </li>
+                                        <li>
+                                            <a>Other Tools</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="musclealign">Multiple SA</a>
+                                                </li>
+                                                <li>
+                                                    <a href="plotting">Plotting</a>
+                                                </li>
+                                                <li>
+                                                    <a href="phylotree">Phylogeny</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="s-12 l-2">
+                                    <li class="logo hide-s hide-m">
+
+                                        <a style=" height:120px" href="../"><img src="static/Images/logo-web-home.png" style="width:50px; height:50px; margin-top:-15%; margin-left:33%; margin-bottom:7%;" />
+                                            Mango<br /><strong>Genome</strong></a>
+                                    </li>
+                                </ul>
+                                <div class="top-nav s-12 l-5">
+                                    <ul class="top-ul chevron">
+                                        <li>
+                                            <a href="Download">Downloads</a>
+                                        </li>
+                                        <li>
+                                            <a>About</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="Project">Project</a>
+                                                </li>
+                                                <li>
+                                                    <a href="disclaimer">Disclaimer</a>
+                                                </li>
+                                                <li>
+                                                    <a href="work">Work</a>
+                                                </li>
+                                                <li>
+                                                    <a href="literature">Literature</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a>Help</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="contact">Contact Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="userguide">User Guide</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+    {% block content %}
+    {% endblock %}
+                <center>
+                    <footer style="height:70px;margin-bottom:0px;width:100%">
+                        <p style="margin-top:-1%; color:white; width:1000px;">
+                            Developed by Department of Bioinformatics at Sir Syed University of Engineering & Technology Karachi 75300, Pakistan. | 2018
+                        </p>
+                    </footer>
+                </center>
+            </body>
+</html >
