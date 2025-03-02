@@ -92,7 +92,7 @@ def blas():
             from Bio.SeqRecord import SeqRecord
             from Bio import SeqIO, SearchIO
             import re
-            with open(r"templates\features.html", "w") as outfile, open(r"uploads\Alignment.txt", "w") as outfile1:
+            with open(r"templates/features.html", "w") as outfile, open(r"uploads/Alignment.txt", "w") as outfile1:
                 print("""{% extends "header.html" %}
         {% block head %}
         <title>Blast information</title>
@@ -128,7 +128,7 @@ def blas():
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <style>table, th, td {border:none ;border-collapse: collapse;}
         th, td {padding: 5px;text-align: left;}</style>
-        {% endblock %}{% block content %}
+        {% block content %}
         <div class="container" style="margin-top:12%; width:1100px">
         <form method="post" enctype="multipart/form-data">
         <fieldset class="collapsible panel panel-default form-wrapper" id="edit-b">
@@ -168,13 +168,13 @@ def blas():
             from Bio.Blast import NCBIXML
             with open("templates/features.html", "a") as outfile:
                 # Process each record in the NCBIXML output
-                for record in NCBIXML.parse(open("Seq1.xml")):
+                for record in NCBIXML.parse(open("output files/Seq1.xml")):
                     print(f"<h2 class='panel-body' style='text-align:left; font-size:20px; font-weight:bold; margin-top:-25px'>Download Files: <a href='/getPlotCSV' style='color:gray;font-size:16px; font-weight:lighter;'>Xml File</a><a href='/alignment' style='color:gray;font-size:16px; font-weight:lighter;'>, Alignment</a></h2>", file=outfile)
                     print(f"<p class='panel-body' style='margin-top:-25px; text-align:justify;'><b>Database Name: </b>{record.database}<br/><b>Database Sequences: </b>{record.database_sequences}<br/><b>Blast Application: </b>{record.application}<br/><b>Blast Version: </b>{record.version}<br/><b>Blastn Command Executed: </b>{cline}</p>", file=outfile)
                     break  # Break after the first record for demo purposes; remove if all records are needed
 
                 # Use SearchIO to parse the blast results
-                qresults = SearchIO.parse('Seq1.xml', 'blast-xml')
+                qresults = SearchIO.parse('output files/Seq1.xml', 'blast-xml')
                 with open('qresult.txt', 'w') as out:
                     for q in qresults:
                         print(f"{q}", file=out)
@@ -187,7 +187,7 @@ def blas():
                 print("<thead style='background-color:#b5b4b4'><tr><th class='number'>S.No</th><th>Hit</th><th>Hsp</th><th>QueryID</th><th class='query'>Target Name  (Click for alignment)</th><th>Length</th><th class='evalue'>E-Value</th><th>Score</th><th>Gaps</th> </tr></thead><tbody>", file=outfile)
 
                 d = 1
-                for record in NCBIXML.parse(open("Seq1.xml")):
+                for record in NCBIXML.parse(open("output files/Seq1.xml")):
                     if record.alignments:
                         for align in record.alignments:
                             counter = 1
@@ -200,7 +200,7 @@ def blas():
                 print("</tbody></table></div><h2>No of Hits found: {}</h2><br/></center></fieldset></div></div>".format(d-1), file=outfile)
                 q_dict= SeqIO.index("Seq1.fasta", "fasta")
                 hits=[]
-                for records in NCBIXML.parse(open("Seq1.xml")):
+                for records in NCBIXML.parse(open("output files/Seq1.xml")):
                     if records.alignments:
                         hits.append(records.query.split()[0])
                 misses = set(q_dict.keys()) - set(hits) 
@@ -219,16 +219,12 @@ def blas():
         return str(e)
 
 
-
-
-
-
 if __name__ == '__main__':
     
     import os
     HOST = os.environ.get('SERVER_HOST', 'localhost')
     try:
-        PORT = int(os.environ.get('SERVER_PORT', '5555'))
+        PORT = int(os.environ.get('SERVER_PORT', '5556'))
     except ValueError:
-        PORT = 5555
+        PORT = 5556
     app.run(HOST, PORT)
