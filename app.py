@@ -218,13 +218,3 @@ def blas():
     except Exception as e:
         return str(e)
 
-
-if __name__ == '__main__':
-    
-    import os
-    HOST = os.environ.get('SERVER_HOST', 'localhost')
-    try:
-        PORT = int(os.environ.get('SERVER_PORT', '5556'))
-    except ValueError:
-        PORT = 5556
-    app.run(HOST, PORT)
